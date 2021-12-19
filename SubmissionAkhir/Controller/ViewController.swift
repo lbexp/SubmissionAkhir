@@ -17,6 +17,9 @@ class ViewController: UIViewController {
         // Menghubungkan restaurantTableView dengan dataSource
         restaurantTableView.dataSource = self
         
+        // Menghubungkan restaurantTableView dengan delegate
+        restaurantTableView.delegate = self
+        
         // Menghubungkan RestaurantTableViewCell dengan restaurantTableView
         restaurantTableView.register(UINib(nibName: "RestaurantTableViewCell", bundle: nil), forCellReuseIdentifier: "RestaurantCell")
         
@@ -45,6 +48,19 @@ extension ViewController: UITableViewDataSource {
         } else {
             return UITableViewCell()
         }
+    }
+}
+
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // Detail View Controller
+        let detail = DetailViewController(nibName: "DetailViewController", bundle: nil)
+        
+        // Pass data restaurant
+        detail.restaurant = restaurants[indexPath.row]
+        
+        // Push to Detail View Controller
+        self.navigationController?.pushViewController(detail, animated: true)
     }
 }
 
