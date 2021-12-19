@@ -31,7 +31,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Restaurant Finder" id="avj-i2-Fw0">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="person.circle" catalog="system" id="6zQ-RH-KsH"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="person.circle" catalog="system" id="6zQ-RH-KsH">
+                            <connections>
+                                <action selector="showProfile:" destination="BYZ-38-t0r" id="jo3-jM-aHh"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="restaurantTableView" destination="n1W-6J-7NR" id="0Df-qv-taH"/>

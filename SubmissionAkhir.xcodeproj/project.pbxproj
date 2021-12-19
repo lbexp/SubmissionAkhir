@@ -20,6 +20,8 @@
 		1EA78FAD276E6F3B00743884 /* DummyRestaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA78FAC276E6F3B00743884 /* DummyRestaurants.swift */; };
 		1EA78FB1276F15A800743884 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA78FAF276F15A800743884 /* DetailViewController.swift */; };
 		1EA78FB2276F15A800743884 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EA78FB0276F15A800743884 /* DetailViewController.xib */; };
+		1EA78FB5276F369E00743884 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA78FB3276F369E00743884 /* ProfileViewController.swift */; };
+		1EA78FB6276F369E00743884 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EA78FB4276F369E00743884 /* ProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		1EA78FAC276E6F3B00743884 /* DummyRestaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyRestaurants.swift; sourceTree = "<group>"; };
 		1EA78FAF276F15A800743884 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1EA78FB0276F15A800743884 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		1EA78FB3276F369E00743884 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1EA78FB4276F369E00743884 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 				1EA78F90276E5BAF00743884 /* ViewController.swift */,
 				1EA78FA6276E61DD00743884 /* RestaurantTableViewCell.swift */,
 				1EA78FAF276F15A800743884 /* DetailViewController.swift */,
+				1EA78FB3276F369E00743884 /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 				1EA78F9A276E5BB300743884 /* LaunchScreen.storyboard */,
 				1EA78FA7276E61DD00743884 /* RestaurantTableViewCell.xib */,
 				1EA78FB0276F15A800743884 /* DetailViewController.xib */,
+				1EA78FB4276F369E00743884 /* ProfileViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA78FB6276F369E00743884 /* ProfileViewController.xib in Resources */,
 				1EA78FA9276E61DD00743884 /* RestaurantTableViewCell.xib in Resources */,
 				1EA78F9C276E5BB300743884 /* LaunchScreen.storyboard in Resources */,
 				1EA78FB2276F15A800743884 /* DetailViewController.xib in Resources */,
@@ -199,6 +206,7 @@
 				1EA78FAB276E67AE00743884 /* Restaurant.swift in Sources */,
 				1EA78F8D276E5BAF00743884 /* AppDelegate.swift in Sources */,
 				1EA78F8F276E5BAF00743884 /* SceneDelegate.swift in Sources */,
+				1EA78FB5276F369E00743884 /* ProfileViewController.swift in Sources */,
 				1EA78F97276E5BAF00743884 /* SubmissionAkhir.xcdatamodeld in Sources */,
 				1EA78FB1276F15A800743884 /* DetailViewController.swift in Sources */,
 			);

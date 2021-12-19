@@ -25,7 +25,11 @@ class ViewController: UIViewController {
         
     }
 
-
+    @IBAction func showProfile(_ sender: Any) {
+        let profile = ProfileViewController(nibName: "ProfileViewController", bundle: nil)
+        
+        self.navigationController?.pushViewController(profile, animated: true)
+    }
 }
 
 extension ViewController: UITableViewDataSource {
